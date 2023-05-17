@@ -1,0 +1,112 @@
+
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(rgb(48, 47, 47), green, blue);
+  font-size: 55px;
+}
+
+h2, p {
+  font-family: 'Gabriela', serif;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(81, 79, 79);
+}
+
+body {
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
+}
+
+#victor {
+width: 190px;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+box-shadow: 0px 0px 20px darkslategray;
+}
+
+div {
+  background: rgba(255, 255, 255, 0.708);
+  padding: 30px;
+  border-radius: 20px;
+  margin: 20px auto;
+  width: 380px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+#wagon_button {
+  color: black;
+  background-color: grey;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+#wagon_button:hover{
+  font-size: 30px;
+  transition-delay: .4;
+}
+
+li {
+  display: inline-block;
+}
+
+.social {
+  font-size: 45px;
+  letter-spacing: 15px;
+}
+
+@media (max-width: 960px) {
+  p {
+    font-size: 15px;}
+  h1 {
+    font-size: 30px;}
+  #victor {width: 100px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0px 0px 20px darkslategray;}
+}
+
+@media (max-width: 720px) {
+  p {
+    font-size: 20px;}
+  h1 {
+      font-size: 30px;}
+  #victor {width: 100px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-shadow: 0px 0px 20px darkslategray;}
+}
+
+@media (max-width: 540px) {
+ p {
+  font-size: 30px;}
+h1 {
+    font-size: 30px;}
+#victor {width: 100px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 0px 0px 20px darkslategray;}
+
+}
